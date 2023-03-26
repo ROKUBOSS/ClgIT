@@ -68,7 +68,7 @@ hr{
 }
 li{
     text-align: left;
-    font-size: 30px;
+    font-size: 18px;
 }
 .list{
     color: darkblue;
@@ -92,8 +92,18 @@ video{
 .hide{
     display: none;
 }
-
+.hiden{
+    text-decoration: double;
 }
+.hiden:hover .hide{
+    display: block;
+    padding: 5px;
+    margin: 3px;
+    color: brown;
+    font-weight: 700;
+}
+
+
 
 
   

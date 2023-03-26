@@ -88,6 +88,19 @@ video{
     height: 300px;
     width: 300px;
 }
+.hiden{
+    text-decoration: none;
+}
+.hide{
+    display: none;
+}
+.hiden:hover .hide{
+    display: block;
+    color: brown;
+    padding: 5px;
+    margin: 3px;
+    font-weight: 700;
+}
 
 
   
