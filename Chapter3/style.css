@@ -67,7 +67,7 @@ hr{
 }
 li{
     text-align: left;
-    font-size: 30px;
+    font-size: 18px;
 }
 .list{
     color: darkblue;
@@ -100,6 +100,11 @@ video{
     padding: 5px;
     margin: 3px;
     font-weight: 700;
+    
+}
+li{
+    list-style: circle outside;
+
 }
 
 
