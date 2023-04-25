@@ -44,12 +44,14 @@ marquee{
     color: brown;
 }
 table,th,td{
-    border: 5px solid gold;
+    border: 2px solid gold;
     background-color: black;
     color: gold;
-    padding: 30px;
-    font-size: 30px;
+    padding: 5px;
+    font-size: 16px;
     text-align: center;
+    overflow-x: auto;
+    font-size:5vw;
 }
 th{
     color: wheat;
