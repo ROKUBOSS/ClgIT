@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Number-System</title>
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin: 5px;
+
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+<h1>Number-System</h1>
+<button type="button" class="collapsible">Day-1</button>
+<div class="content">
+ <p>Number System Basic</p>
+</div>
+<button type="button" class="collapsible">Day-2</button>
+<div class="content">
+  <h5>Remember It</h5>
+  <li>All Number are Individual Except Decimal (Example : 101) </li>
+  <li>Why Base Is Important ? (Example : 110)</li>
+  <li>Base না বসালে অংক হবে না।</li>
+  <li>Binary Math করার সময় Page Landscape করে নিতে হবে।</li>
+  <li>Base দ্বারা অংক Solve করতে হবে। </li>
+  <li>Decimal Base Is Value Less</li>
+  <li>Base যদি সমান চিহ্নের ডান পাশে হয় তবে ভাগ হবে আর যদি সমান চিহ্নের বাম পাশে হয় তবে গুন হবে। </li>
+  <li>Octal 1 Digit = Binary 3 Digits (Example : 52 = 101, 010)</li>
+  <li>Hexa-Decimal 1 Digit = Binary 4 Digits (Example : 52 = 0101, 0010)</li>
+  <li>Math Equation (Example : "05 = 5 / .5 = 0.5 / .5 = .50" Etc.......</li>
+  <li>Without Power Of 2 Decimal - Binary & Binary - Decimal</li>
+  <li>LSB & MSB</li>
+  <h5>Conversion</h5>
+  <p>D-B / D-O / D-H.D / B-D / O-D / H.D-D </p>
+  <li>Base দ্বারা অংক Solve করতে হবে।</li>
+  <li>Decimal Base Is Value Less</li>
+  <li>Base যদি সমান চিহ্নের ডান পাশে হয় তবে ভাগ হবে আর যদি সমান চিহ্নের বাম পাশে হয় তবে গুন হবে।</li>
+</div>
+<button type="button" class="collapsible">Day-3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Day-4</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Day-5</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Day-6</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Day-7</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Day-8</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Day-9</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Day-10</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
