@@ -1,0 +1,34 @@
+১-মোট গেইট কয়টা ও কি কি ?
+২-মৌলিক গেইট কয়টা ও কি কি ?
+৩-যৌগিক গেইট কয়টা ও কি কি ? 
+৪-সহয উপায়ে গেইট আঁকা 
+5-Universal Gate & Special Gate
+6-Nor Gate & Nand Gate Full Form
+৭-সকল গেইট এর Output একটা।  
+Buffer Gate & Not Gate এর Input একটা 
+তবে অন্য সব গেইটের Input দুই বা ততোধিক।
+8-All Gates Truth-Table Draw
+9-All Gates Switching Circuit Draw
+10-MCQ Qstn & Video Play
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+  
